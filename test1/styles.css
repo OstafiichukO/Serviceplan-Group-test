@@ -1,11 +1,9 @@
 * {
   box-sizing: border-box;
 }
-
 .body {
   margin: 0;
   background-color: #c4c4c4;
-
 }
 
 .box {
@@ -16,8 +14,9 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #ff0000;
-
-  @media screen and(min-width: 800px) {
+}
+@media screen and (min-width: 800px) {
+  .box {
     width: 400px;
     height: 400px;
   }
